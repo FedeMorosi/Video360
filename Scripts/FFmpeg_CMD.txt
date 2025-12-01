@@ -1,0 +1,11 @@
+Open CMD
+Write:
+cd [copy path of video folder]
+ffmpeg -i {20251118_RawVideos}\{origin_1.mp4} -vf fps=1 {20251118_Frames}\{Frames1}\frame_%05d.png 
+          {folder video}       {name.extension               {folder collecting {folder 
+				       video}			 frames}  	frame}  
+
+
+ffmpeg -i Colmap_1st.mp4 -vf fps=6 Frames_1st\Frames1\frame_%05d.png
+
+
