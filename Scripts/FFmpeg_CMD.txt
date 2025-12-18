@@ -6,6 +6,6 @@ ffmpeg -i {20251118_RawVideos}\{origin_1.mp4} -vf fps=1 {20251118_Frames}\{Frame
 				       video}			 frames}  	frame}  
 
 
-ffmpeg -i Colmap_1st.mp4 -vf fps=6 Frames_1st\Frames1\frame_%05d.png
+ffmpeg -i Captures\Colmap_1st.mp4 -vf fps= Frames_1st\frame_%05d.png
 
 
